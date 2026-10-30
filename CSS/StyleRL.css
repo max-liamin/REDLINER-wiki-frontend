@@ -21,7 +21,7 @@
 
 @font-face {
     font-family: 'Oxanium';
-    src: url(Fonts/Oxanium-Regular.ttf);
+    src: url("/REDLINER-wiki-frontend/Fonts/Oxanium-Regular.ttf");
 }
 
 .title {
