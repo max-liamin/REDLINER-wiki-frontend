@@ -13,9 +13,9 @@ Features:
 ***
 Technologies used:
 
-**HTML5**
+* **HTML5**
 
-**CSS3**
+* **CSS3**
 ***
 Installation instructions:
 
@@ -25,3 +25,9 @@ Installation instructions:
 
 3. Launch the index.html file in any modern browser (such as Chrome, Edge, Firefox etc.) to view the live environment.
 
+***
+Additional information:
+
+This is a project for a year 10 digital solutions assignment
+
+Every line of code in this project was made 100% by hand 
