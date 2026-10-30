@@ -1,0 +1,219 @@
+.bgimage {
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    background-image: url("Images/redliner-trailer.jpg");
+    background-size:contain;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-color: #000000;
+    filter:blur(10px);
+    transform: scale(1.05);
+}
+
+.content {
+    position:relative;
+    z-index:1;
+}
+
+@font-face {
+    font-family: 'Oxanium';
+    src: url(Fonts/Oxanium-Regular.ttf);
+}
+
+.title {
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 15px; 
+}
+
+.title0 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.navbar {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-bottom: 1px solid #FFFFFF;
+    padding-bottom: 10px;
+}
+
+.nav {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.nav a {
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+    text-align: center;
+    transition: color 0.2s ease;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #ff3333; 
+}
+
+.videotext {
+    display: flex;
+    gap: 30px;
+    margin: 40px auto;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    padding: 0 25px;
+}
+
+.videodiv {
+    flex: 1.15;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 10px;
+    border: 1px solid #222222;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.textdiv {
+    flex: 1;
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #222222;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.highlight {
+    color: #ff3333;
+}
+
+.misctext {
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #222222;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    font-size: 1.4rem;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+.link {
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #222222;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+    font-size: 1.4rem;
+    position: center;
+    margin: 20px auto;
+    background-position: center;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 550px;
+    text-decoration: none;
+    transition: max-width 0.4s ease, color 0.2s ease;
+}
+
+a{
+    transition: color 0.2s ease;
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+}
+
+a:hover {
+    color: #ff3333;
+}
+
+.big {
+    font-family: 'Oxanium', sans-serif;
+    color: #ff3333;
+    font-size: 2rem
+}
+
+.link:hover {
+    color: #ff3333;
+    max-width: 700px
+}
+
+.placeholder {
+    text-decoration: none;
+}
+
+.homebutton {
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+    background: rgba(0, 0, 0, 0.75);
+    border: 1px solid #222222;
+    border-radius: 6px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    padding: 15px 25px;
+    font-size: 1.4rem;
+    width: 30%;
+    position: center;
+    margin: 20px auto;
+    background-position: center;
+    box-sizing: border-box;
+    text-align: center;
+    max-width: 400px;
+    text-decoration: none;
+    transition: color 0.2s ease;
+    bottom: 5px;
+    position: fixed;
+    left: 50%;
+    z-index: 10;
+    transform: translate(-50%);
+    transition: max-width 0.4s ease, color 0.2s ease;
+}
+
+.homebutton:hover {
+    color: #ff3333;
+    max-width: 500px;
+}
+
+.header {
+    flex: 1;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.35rem;
+    color: #FFFFFF;
+    font-family: 'Oxanium', sans-serif;
+}
+
+.weaponimg {
+    position: center;
+}
+
+.heading1 {
+    text-align: center;
+}
